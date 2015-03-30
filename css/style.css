@@ -47,7 +47,7 @@ font-family: 'Clicker Script', cursive;
 /* id selector (can only be applied to 1 element per page) */
 
 #logo {/*select elements with id="logo"*/
-	background: aqua;
+	
 
 }
 
@@ -76,4 +76,88 @@ font-family: 'Clicker Script', cursive;
 
 #details a:active {
 	color: red;
+}
+
+
+/*/////// MEDIA ////// */
+img, video, audio{
+	max-width: 100%;
+}
+
+
+/*/////// Layout////// */
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-box-sizing: border-box;
+}
+
+.wrapper{
+	width:960px;
+	margin: 0 auto;
+}
+.col-1{
+	float:left;
+	width:32%;
+		background:#ddd;
+}
+
+
+.col-2{
+	float:left;
+	width:66%;
+	background:#ddd;
+}
+
+.col-3{
+	background:#ddd;
+
+}
+
+[class*="col-"]{
+	margin-left: 2%;
+}
+.first{
+	margin-left:0%;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height:0;
+	line-height: 0;
+}
+
+
+/*/////// Sections ////// */
+
+header{
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	background: white;
+	z-index:1;
+}
+section{
+	margin-bottom:20px;
+	padding:20px;
+}
+
+
+/*/////// Social ////// */
+#social{
+	position: fixed;
+	top: 200px;
+	right: 20px;
+	width: 40px;
+	z-index: 1;
+}
+#social a{
+	display:block;
+	width: 40px;
+	height: 40px;
+	background:yellow;
 }
