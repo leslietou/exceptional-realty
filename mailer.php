@@ -7,7 +7,7 @@
   ###################################
 
   // Set email address to send to i.e: you@yoursite.com
-  $sendTo       = 'you@yoursite.com';
+  $sendTo       = 'leslie.tou@gmail.com';
 
   // Set email subject (appears as subject)
   $subject      = 'Exceptional Realty - Contact Form Submission';
